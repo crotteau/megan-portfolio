@@ -1,6 +1,13 @@
 .projects-grid {
     height: 70vh;
-    width: 90vw;
-    background-size: cover;
-    margin-left: 8vw;
+    width: 100vw;
+    /* background-size: cover; */
+    background-color: rgb(187, 232, 213);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20em;
+}
+
+.project-image {
+    width: 10em;
 }
