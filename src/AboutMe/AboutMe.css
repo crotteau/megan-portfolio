@@ -1,5 +1,40 @@
 .about-me {
-    height: 100vh;
-    padding: 0px;
+    height: 60vh;
+    width: 80vw;
     background-size: cover;
+    display: flex;
+    margin: 1em;
+}
+
+.about-intro {
+    margin: 5em;
+    padding: 3em;
+    background-color: rgb(237, 178, 83);
+    width: fit-content;
+    height: 10em;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(107, 114, 102);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.icon {
+    &:hover {
+        animation: spin 1s ease-in-out;
+        color: yellow;
+    }
+
+}
+
+.bulbs {
+    width: 40vw;
+    height: fit-content;
 }
