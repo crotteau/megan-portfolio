@@ -2,7 +2,7 @@
     height: 70vh;
     width: 100vw;
     /* background-size: cover; */
-    background-color: rgb(187, 232, 213);
+    /* background-color: rgb(187, 232, 213); */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 20em;
