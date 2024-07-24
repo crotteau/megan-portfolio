@@ -43,7 +43,7 @@ function AboutMe() {
                     </a>
                 </div>
             </article>
-            <img className='bulbs' src={bulbs} alt='globular-bulbs' />
+            {/* <img className='bulbs' src={bulbs} alt='globular-bulbs' /> */}
         </section>
     )
 }
