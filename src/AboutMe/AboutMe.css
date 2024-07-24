@@ -9,11 +9,11 @@
 .about-intro {
     margin: 5em;
     padding: 3em;
-    background-color: rgb(237, 178, 83);
+    background-color: rgb(249, 249, 244);
     width: fit-content;
     height: 10em;
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px rgb(107, 114, 102);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(175, 177, 174);
 }
 
 @keyframes spin {
@@ -29,7 +29,7 @@
 .icon {
     &:hover {
         animation: spin 1s ease-in-out;
-        color: yellow;
+        color: rgb(199, 137, 180);
     }
 
 }
