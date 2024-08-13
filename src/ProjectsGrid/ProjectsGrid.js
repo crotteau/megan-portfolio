@@ -69,8 +69,11 @@ function ProjectsGrid() {
 
    return (
       //  <section className='projects-grid' style={{ backgroundImage: `url(${grid})` }}> 
-      <React.Fragment>
-         <h2 className='projects'>Projects</h2>
+      <section className='projects-section'>
+         <div className='projects-section-header'>
+            <h2 className='projects'>Projects</h2>
+            <p className='projects-description'>Some things I've recently worked on.</p>
+         </div>
          <article className='projects-container'>
             <button onClick={() => carouselScrollLeft()}>
                <FontAwesomeIcon
@@ -88,7 +91,7 @@ function ProjectsGrid() {
                />
             </button>
          </article>
-      </React.Fragment>
+      </section>
    )
 }
 

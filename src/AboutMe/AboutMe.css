@@ -1,16 +1,17 @@
 .about-me {
-    height: 60vh;
-    width: 100vw;
-    /* background-size: cover; */
     display: flex;
-    margin: 3em;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     color: rgb(37, 37, 66);
+    background-color: rgb(222, 208, 161);
 }
 
 .about-intro {
     padding: 3em;
     /* background-color: rgb(121, 173, 197); */
-    background-color: rgb(167, 205, 189);
+    background-color: rgb(156, 203, 184);
+    width: 40vw;
     height: fit-content;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgb(175, 177, 174);
@@ -44,14 +45,17 @@ h2 {
         color: rgb(73, 58, 15);
         &:hover {
             animation: spin 1s ease-in-out;
-            color: rgb(134, 158, 111);
+            color: rgb(29, 120, 159);
         }
         
     }
     
     .bulbs {
-        width: 40vw;
+        max-width: 40vw;
+        min-width: 30em;
         height: fit-content;
+        margin: 0px;
+        padding: 0px;
     }
     
     @keyframes spin {
@@ -61,5 +65,16 @@ h2 {
     
         to {
             transform: rotate(360deg);
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .about-me {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-intro{
+            width: 85vw;
         }
     }

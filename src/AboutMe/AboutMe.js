@@ -16,7 +16,7 @@ function AboutMe() {
                     <h2>Hi, Welcome!</h2>
                     <p className='description'>
                         I'm <span className='name'>Megan Crotteau. </span> <br />
-                        Frontend Engineer, Biologist, & Amateur Origami-ist
+                        Frontend engineer, biologist, & amateur origami-ist.
                     </p>
                 </div>
                 <div className='about-contact'>
