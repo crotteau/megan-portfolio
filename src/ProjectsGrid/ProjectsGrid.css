@@ -1,3 +1,28 @@
+.projects-section {
+    padding: 2rem 1rem;
+    background-color: rgb(164, 141, 121);
+}
+
+.projects-section-header {
+    background-color: rgb(186, 198, 77);
+    width: fit-content;
+    padding: 1.5em;
+    padding-right: 5em;
+    margin: 1em 3rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    color: rgb(37, 37, 66);
+    font-family: "Major Mono Display", monospace;
+}
+
+.projects-description {
+    font-size: 1.5em;
+}
+
 .projects-container {
     display: flex;
     flex-direction: row;
@@ -6,15 +31,6 @@
 
 .projects-grid {
     height: fit-content;
-    width: 100vw;
-    padding: 1em;
-    /* background-size: cover; */
-    /* background-color: rgb(187, 232, 213); */
-    /* display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 30em;
-    overflow-x: scroll; */
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
@@ -22,18 +38,42 @@
 }
 
 .project-image {
-    width: 30em;
+    width: 35em;
 }
 
 .project {
     padding: 1em;
-    margin: 0.5em;
-    background-color: rgb(244, 244, 245);
+    margin: 15px;
+    height: 30em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 5px rgb(255, 255, 255); */
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
+.projects-grid-arrow {
+    font-size: 30px;
+    color: rgb(219, 199, 161);
+
+    &:hover {
+        color: red;
+    }
+}
+
 button {
-    height: 5em;
-    width: 5em;
+    height: fit-content;
+    width: fit-content;
     margin: 1em;
+    padding: 1em;
+    cursor: pointer;
+    border-style: none;
+    background-color: rgb(167, 182, 184);
+}
+
+.project-tech {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+
 }

@@ -4,7 +4,7 @@ import projects from '../projectsData';
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function ProjectsGrid() {
    const [myProjects, setProjects] = useState([])
@@ -23,8 +23,7 @@ function ProjectsGrid() {
    }
 
    const carouselScrollRight = () => {
-      console.log('current index', currentIndex)
-      if (currentIndex === projects.length-1) {
+      if (currentIndex === projects.length - 1) {
          return setCurrentIndex(0)
       } else {
          return setCurrentIndex(currentIndex + 1)
@@ -37,8 +36,12 @@ function ProjectsGrid() {
             <article className='project'
                key={project.name}
                style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-               <p>{project.name}</p>
+               <h3 className='project-name'>{project.name}</h3>
                <p>{project.description}</p>
+               <p>
+                  <span className='project-tech'>Technologies Used: </span>
+                  {project.technologies}
+               </p>
                <div>
                   <a href={project.github} target='_blank' rel='noopener noreferrer'>
                      <img src={project.image} alt='website-homepage' className='project-image' />
@@ -66,17 +69,29 @@ function ProjectsGrid() {
 
    return (
       //  <section className='projects-grid' style={{ backgroundImage: `url(${grid})` }}> 
-      <React.Fragment>
-         <h2>Projects</h2>
+      <section className='projects-section'>
+         <div className='projects-section-header'>
+            <h2 className='projects'>Projects</h2>
+            <p className='projects-description'>Some things I've recently worked on.</p>
+         </div>
          <article className='projects-container'>
-            <button onClick={() => carouselScrollLeft()}>previous</button>
+            <button onClick={() => carouselScrollLeft()}>
+               <FontAwesomeIcon
+                  className='projects-grid-arrow'
+                  icon={faArrowLeft}
+               />
+            </button>
             <section className='projects-grid'>
                {myProjects}
-               {/* <img src={squiggle}/> */}
             </section>
-            <button onClick={() => carouselScrollRight()}>next</button>
+            <button onClick={() => carouselScrollRight()}>
+               <FontAwesomeIcon
+                  className='projects-grid-arrow'
+                  icon={faArrowRight}
+               />
+            </button>
          </article>
-      </React.Fragment>
+      </section>
    )
 }
 
