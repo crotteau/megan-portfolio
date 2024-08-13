@@ -1,40 +1,65 @@
 .about-me {
     height: 60vh;
-    width: 80vw;
-    background-size: cover;
+    width: 100vw;
+    /* background-size: cover; */
     display: flex;
-    margin: 1em;
+    margin: 3em;
+    color: rgb(37, 37, 66);
 }
 
 .about-intro {
-    margin: 5em;
     padding: 3em;
-    background-color: rgb(249, 249, 244);
-    width: fit-content;
-    height: 10em;
-    border-radius: 10px;
+    /* background-color: rgb(121, 173, 197); */
+    background-color: rgb(167, 205, 189);
+    height: fit-content;
+    border-radius: 5px;
     box-shadow: 1px 1px 5px rgb(175, 177, 174);
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
+h2 {
+    margin: 0px;
+    padding-left: 0px;
+      /* font-family: "Bellota Text", sans-serif; */
+      /* font-family: "Staatliches", sans-serif; */
+      font-family: "Major Mono Display", monospace;
+      /* font-weight: 700; */
+      font-size: 3.5rem;
+    }
+    
+    .name {
+        color: rgb(187, 113, 1);
+    }
+    
+    .description {
+        margin-top: 1em;
+        font-size: 2em;
     }
 
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.icon {
-    &:hover {
-        animation: spin 1s ease-in-out;
-        color: rgb(199, 137, 180);
+    .contact {
+        font-weight: bold;
+        font-size: 1.25em;
     }
 
-}
-
-.bulbs {
-    width: 40vw;
-    height: fit-content;
-}
+    .icon {
+        color: rgb(73, 58, 15);
+        &:hover {
+            animation: spin 1s ease-in-out;
+            color: rgb(134, 158, 111);
+        }
+        
+    }
+    
+    .bulbs {
+        width: 40vw;
+        height: fit-content;
+    }
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+    
+        to {
+            transform: rotate(360deg);
+        }
+    }
