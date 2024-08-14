@@ -6,7 +6,7 @@
 .projects-section-header {
     background-color: rgb(186, 198, 77);
     width: fit-content;
-    padding: 1.5em;
+    padding: 1em;
     padding-right: 5em;
     margin: 1em 3rem;
     border-radius: 5px;
@@ -21,6 +21,7 @@
 
 .projects-description {
     font-size: 1.5em;
+    margin-top: 0.5em;
 }
 
 .projects-container {
@@ -37,34 +38,50 @@
     transition: transform 0.5s ease-in-out;
 }
 
+.project {
+    padding: 1.75em;
+    margin: 1.5em 10px;
+    height: 35em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 5px rgb(255, 255, 255); */
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
 .project-image {
     width: 35em;
 }
 
+.project-intro {
+    background-color: rgba(166, 156, 203, 0.325);
+    border-radius: 3px;
+    padding: 0.25em 1em;
+    margin-bottom: 1em;
+}
+
 .project-name {
     font-size: 1.5em;
-    background-color: rgba(166, 156, 203, 0.788);
-    width: fit-content;
-    padding: 0.5em;
-    border-radius: 3px;
+    margin-bottom: 0px;
+}
+
+.project-description {
+    font-size: 1.35em;
+    margin-top: 0.25em;
 }
 
 .project-icon {
     margin-top: 0.5em;
 }
 
-.project {
-    padding: 1.75em;
-    margin: 1.5em 10px;
-    height: 34em;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    /* box-shadow: 1px 1px 5px rgb(255, 255, 255); */
-    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+.project-tech {
+    font-size: 1.25em;
+}
+
+.project-tech-title {
+    font-weight: bold;
 }
 
 .project-links a {
-    color: rgb(0, 128, 255);
+    color: rgb(123, 22, 174);
     &:hover {
         color: rgb(186, 198, 77);
     }
@@ -95,9 +112,6 @@ button {
     background-color: rgb(167, 162, 158);
 }
 
-.project-tech {
-    font-weight: bold;
-}
 
 @media screen and (max-width: 800px) {
 

@@ -1,0 +1,20 @@
+.contact-section {
+    background-color: rgb(167, 162, 158);
+    margin-top: 0px;
+    padding: 1rem;
+    padding-bottom: 5rem;
+}
+
+.contact-info {
+    background-color: rgb(239, 149, 74);
+    margin-left: 3em;
+    font-size: 1.5em;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.contact {
+    font-family: "Major Mono Display", monospace;
+    font-size: 1.56em;
+}

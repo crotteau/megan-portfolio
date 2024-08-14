@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import ProjectsGrid from '../ProjectsGrid/ProjectsGrid';
-import Contact from '../App/Contact/Contact';
+import Contact from '../Contact/Contact';
 import './Home.css';
 
 function Home() {
