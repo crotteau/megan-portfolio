@@ -1,12 +1,12 @@
 .projects-section {
     padding: 2rem 1rem;
-    background-color: rgb(164, 141, 121);
+    background-color: rgb(167, 162, 158);
 }
 
 .projects-section-header {
     background-color: rgb(186, 198, 77);
     width: fit-content;
-    padding: 1.5em;
+    padding: 1em;
     padding-right: 5em;
     margin: 1em 3rem;
     border-radius: 5px;
@@ -21,42 +21,84 @@
 
 .projects-description {
     font-size: 1.5em;
+    margin-top: 0.5em;
 }
 
 .projects-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 4em;
 }
 
 .projects-grid {
-    height: fit-content;
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
     transition: transform 0.5s ease-in-out;
 }
 
-.project-image {
-    width: 35em;
-}
-
 .project {
-    padding: 1em;
-    margin: 15px;
-    height: 30em;
+    padding: 1.75em;
+    margin: 1.5em 10px;
+    height: 35em;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     /* box-shadow: 1px 1px 5px rgb(255, 255, 255); */
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+.project-image {
+    width: 35em;
+}
+
+.project-intro {
+    background-color: rgba(166, 156, 203, 0.325);
+    border-radius: 3px;
+    padding: 0.25em 1em;
+    margin-bottom: 1em;
+}
+
+.project-name {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+.project-description {
+    font-size: 1.35em;
+    margin-top: 0.25em;
+}
+
+.project-icon {
+    margin-top: 0.5em;
+}
+
+.project-tech {
+    font-size: 1.25em;
+}
+
+.project-tech-title {
+    font-weight: bold;
+}
+
+.project-links a {
+    color: rgb(123, 22, 174);
+    &:hover {
+        color: rgb(186, 198, 77);
+    }
+}
 
 .projects-grid-arrow {
-    font-size: 30px;
-    color: rgb(219, 199, 161);
+    font-size: 40px;
+    color: rgb(192, 115, 0);
+    padding: 0.15em;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: rgb(167, 148, 133);
 
     &:hover {
-        color: red;
+        color: rgb(156, 203, 184);
+        border-style: inset;
+        border-color: rgb(167, 148, 133);
     }
 }
 
@@ -67,12 +109,9 @@ button {
     padding: 1em;
     cursor: pointer;
     border-style: none;
-    background-color: rgb(167, 182, 184);
+    background-color: rgb(167, 162, 158);
 }
 
-.project-tech {
-    font-weight: bold;
-}
 
 @media screen and (max-width: 800px) {
 

@@ -4,11 +4,12 @@
     padding-top: 3rem;
     padding-bottom: 4rem;
     color: rgb(37, 37, 66);
-    background-color: rgb(222, 208, 161);
+    background-color: rgb(215, 213, 207);
 }
 
 .about-intro {
     padding: 3em;
+    padding-bottom: 3em;
     /* background-color: rgb(121, 173, 197); */
     background-color: rgb(156, 203, 184);
     width: 40vw;
@@ -20,61 +21,62 @@
 h2 {
     margin: 0px;
     padding-left: 0px;
-      /* font-family: "Bellota Text", sans-serif; */
-      /* font-family: "Staatliches", sans-serif; */
-      font-family: "Major Mono Display", monospace;
-      /* font-weight: 700; */
-      font-size: 3.5rem;
-    }
-    
-    .name {
-        color: rgb(187, 113, 1);
-    }
-    
-    .description {
-        margin-top: 1em;
-        font-size: 2em;
+    /* font-family: "Bellota Text", sans-serif; */
+    /* font-family: "Staatliches", sans-serif; */
+    font-family: "Major Mono Display", monospace;
+    /* font-weight: 700; */
+    font-size: 3.5rem;
+}
+
+.name {
+    color: rgb(192, 115, 0);
+}
+
+.description {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.contact {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.icon {
+    color: rgb(73, 58, 15);
+
+    &:hover {
+        animation: spin 1s ease-in-out;
+        color: rgb(192, 115, 0);
     }
 
-    .contact {
-        font-weight: bold;
-        font-size: 1.25em;
+}
+
+.bulbs {
+    max-width: 40rem;
+    min-width: 30rem;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
     }
 
-    .icon {
-        color: rgb(73, 58, 15);
-        &:hover {
-            animation: spin 1s ease-in-out;
-            color: rgb(29, 120, 159);
-        }
-        
+    to {
+        transform: rotate(360deg);
     }
-    
-    .bulbs {
-        max-width: 40vw;
-        min-width: 30em;
-        height: fit-content;
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    @keyframes spin {
-        from {
-            transform: rotate(0deg);
-        }
-    
-        to {
-            transform: rotate(360deg);
-        }
+}
+
+@media screen and (max-width: 800px) {
+    .about-me {
+        flex-direction: column;
+        align-items: center;
     }
 
-    @media screen and (max-width: 800px) {
-        .about-me {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .about-intro{
-            width: 85vw;
-        }
+    .about-intro {
+        width: 85vw;
     }
+}

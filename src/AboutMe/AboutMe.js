@@ -15,18 +15,11 @@ function AboutMe() {
                 <div>
                     <h2>Hi, Welcome!</h2>
                     <p className='description'>
-                        I'm <span className='name'>Megan Crotteau. </span> <br />
+                        I'm <span className='name'>Megan Crotteau</span>. <br />
                         Frontend engineer, biologist, & amateur origami-ist.
                     </p>
                 </div>
                 <div className='about-contact'>
-                    {/* <p>
-                       <span className='contact'> Contact: </span><br />
-                        Megan Crotteau <br />
-                        Denver, CO <br />
-                        megan.crotteau@gmail.com <br />
-
-                    </p> */}
                     <a href='https://www.linkedin.com/in/megancrotteau/' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon
                             className='icon'

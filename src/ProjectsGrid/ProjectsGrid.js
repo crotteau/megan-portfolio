@@ -36,13 +36,11 @@ function ProjectsGrid() {
             <article className='project'
                key={project.name}
                style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-               <h3 className='project-name'>{project.name}</h3>
-               <p>{project.description}</p>
-               <p>
-                  <span className='project-tech'>Technologies Used: </span>
-                  {project.technologies}
-               </p>
-               <div>
+               <div className='project-intro'>
+                  <h3 className='project-name'>{project.name}</h3>
+                  <p className='project-description'>{project.description}</p>
+               </div>
+               <div className='project-links'>
                   <a href={project.github} target='_blank' rel='noopener noreferrer'>
                      <img src={project.image} alt='website-homepage' className='project-image' />
                      <FontAwesomeIcon
@@ -61,6 +59,10 @@ function ProjectsGrid() {
                      </a>
                   }
                </div>
+               <p className='project-tech'>
+                  <span className='project-tech-title'>Tech Used: </span>
+                  {project.technologies}
+               </p>
             </article>
          )
       })
