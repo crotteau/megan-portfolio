@@ -39,7 +39,7 @@ function ProjectsGrid() {
                <h3 className='project-name'>{project.name}</h3>
                <p>{project.description}</p>
                <p>
-                  <span className='project-tech'>Technologies Used: </span>
+                  <span className='project-tech'>Tech Used: </span>
                   {project.technologies}
                </p>
                <div className='project-links'>

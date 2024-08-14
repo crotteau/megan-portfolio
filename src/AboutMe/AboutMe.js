@@ -20,13 +20,6 @@ function AboutMe() {
                     </p>
                 </div>
                 <div className='about-contact'>
-                    {/* <p>
-                       <span className='contact'> Contact: </span><br />
-                        Megan Crotteau <br />
-                        Denver, CO <br />
-                        megan.crotteau@gmail.com <br />
-
-                    </p> */}
                     <a href='https://www.linkedin.com/in/megancrotteau/' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon
                             className='icon'
