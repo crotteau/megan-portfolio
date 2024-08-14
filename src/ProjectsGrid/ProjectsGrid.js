@@ -42,7 +42,7 @@ function ProjectsGrid() {
                   <span className='project-tech'>Technologies Used: </span>
                   {project.technologies}
                </p>
-               <div>
+               <div className='project-links'>
                   <a href={project.github} target='_blank' rel='noopener noreferrer'>
                      <img src={project.image} alt='website-homepage' className='project-image' />
                      <FontAwesomeIcon

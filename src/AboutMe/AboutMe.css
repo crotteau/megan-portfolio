@@ -4,11 +4,12 @@
     padding-top: 3rem;
     padding-bottom: 4rem;
     color: rgb(37, 37, 66);
-    background-color: rgb(222, 208, 161);
+    background-color: rgb(215, 213, 207);
 }
 
 .about-intro {
     padding: 3em;
+    padding-bottom: 6em;
     /* background-color: rgb(121, 173, 197); */
     background-color: rgb(156, 203, 184);
     width: 40vw;
@@ -28,7 +29,7 @@ h2 {
     }
     
     .name {
-        color: rgb(187, 113, 1);
+        color: rgb(192, 115, 0);
     }
     
     .description {
@@ -51,8 +52,8 @@ h2 {
     }
     
     .bulbs {
-        max-width: 40vw;
-        min-width: 30em;
+        max-width: 40rem;
+        min-width: 30rem;
         height: fit-content;
         margin: 0px;
         padding: 0px;
