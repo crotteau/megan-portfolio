@@ -1,6 +1,7 @@
 .projects-section {
     padding: 2rem 1rem;
-    background-color: rgb(167, 162, 158);
+    /* background-color: rgb(167, 162, 158); */
+    background-color: rgb(215, 213, 207);
 }
 
 .projects-section-header {
@@ -22,6 +23,7 @@
 .projects-description {
     font-size: 1.5em;
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .projects-container {
@@ -39,9 +41,9 @@
 }
 
 .project {
-    padding: 1.75em;
+    padding: 2em;
     margin: 1.5em 10px;
-    height: 35em;
+    height: 34em;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     /* box-shadow: 1px 1px 5px rgb(255, 255, 255); */
@@ -93,12 +95,12 @@
     padding: 0.15em;
     border-radius: 5px;
     border-style: outset;
-    border-color: rgb(167, 148, 133);
+    border-color: rgb(204, 204, 204);
 
     &:hover {
         color: rgb(156, 203, 184);
         border-style: inset;
-        border-color: rgb(167, 148, 133);
+        border-color: rgb(167, 160, 154);
     }
 }
 
@@ -109,7 +111,7 @@ button {
     padding: 1em;
     cursor: pointer;
     border-style: none;
-    background-color: rgb(167, 162, 158);
+    background-color: rgb(215, 213, 207);
 }
 
 
