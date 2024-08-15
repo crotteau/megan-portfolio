@@ -103,17 +103,21 @@ h2 {
     .about-me {
         flex-direction: column;
         justify-content: center;
+        padding-left: 1rem;
+        width: 100vw;
     }
 
     .about-intro {
-        width: fit-content;
+        width: 85vw;
         height: fit-content;
+        margin-left: 2rem;
     }
 
     .bulbs {
         left: 0rem;
         top: 30rem;
         width: 10em;
+        height:fit-content;
         
     }
 
@@ -121,5 +125,6 @@ h2 {
         left: 6rem;
         top: 36rem;
         width: 12em;
+        height: fit-content;
     }
 }

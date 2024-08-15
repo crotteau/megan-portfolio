@@ -120,26 +120,39 @@ button {
 @media screen and (max-width: 500px) {
     .projects-section {
         margin-top: 8rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        padding-left: 0px;
+        height: fit-content;
     }
-
+    
     .projects-grid {
         display: flex;
         flex-direction: column;
-        width: fit-content;
+        align-items: center;
     }
-
+    
     .projects-container {
+        padding-bottom: 0px;
         width: fit-content;
     }
-
+    
     .project {
-        width: fit-content;
+        margin-bottom: 0px;
         height: fit-content;
+        margin-left: 0px;
+        padding: 1em;
+        width: fit-content;
     }
 
     .projects-grid-arrow {
         display: none;
+    }
+
+    .project-image {
+        width: 23em;
+    }
+
+    .projects-section-header {
+        margin-left: 3rem;
+        width: 70vw;
     }
 }
