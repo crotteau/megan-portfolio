@@ -1,7 +1,6 @@
 import './AboutMe.css';
-import blueSquares from '../assets/blue-squares.png';
 import bulbs from '../assets/bulbs.png';
-import squiggle from '../assets/yellow-squiggle.png';
+import fish1 from '../assets/fish1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
@@ -43,7 +42,10 @@ function AboutMe() {
                     </a>
                 </div>
             </article>
-            <img className='bulbs' src={bulbs} alt='globular-bulbs' />
+            <div>
+                <img className='bulbs' src={bulbs} alt='globular-bulbs' />
+                <img className='puffer-fish' src={fish1} alt='puffer-fish' />
+            </div>
         </section>
     )
 }

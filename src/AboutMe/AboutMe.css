@@ -2,7 +2,7 @@
     display: flex;
     padding-left: 3rem;
     padding-top: 3rem;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
     color: rgb(37, 37, 66);
     background-color: rgb(215, 213, 207);
 }
@@ -12,7 +12,7 @@
     padding-bottom: 3em;
     /* background-color: rgb(121, 173, 197); */
     background-color: rgb(156, 203, 184);
-    width: 40vw;
+    /* width: 40vw; */
     height: fit-content;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgb(175, 177, 174);
@@ -58,6 +58,35 @@ h2 {
     height: fit-content;
     margin: 0px;
     padding: 0px;
+    z-index: 1;
+    position: absolute;
+    left: 52rem;
+    top: 2rem;
+}
+
+.puffer-fish {
+    width: 20rem;
+    height: fit-content;
+    position: absolute;
+    left: 63rem;
+    top: 8rem;
+    z-index: 0;
+    animation: swim 9s infinite;
+}
+
+@keyframes swim {
+    0%{
+        transform: translateX(0rem);
+    }
+    40%{
+        transform: translateX(10rem) rotate(0.05turn);
+    }
+    80%{
+        transform: translateX(0rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
 }
 
 @keyframes spin {
