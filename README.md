@@ -1,4 +1,6 @@
 # Hi, you've found my portfolio!
+Currently a work in progress.. stay tuned for more updates.
+
 
 ## Contact: <br>
 **Megan Crotteau** <br>
