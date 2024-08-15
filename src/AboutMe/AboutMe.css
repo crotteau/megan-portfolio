@@ -75,16 +75,19 @@ h2 {
 }
 
 @keyframes swim {
-    0%{
+    0% {
         transform: translateX(0rem);
     }
-    40%{
+
+    40% {
         transform: translateX(10rem) rotate(0.05turn);
     }
-    80%{
+
+    80% {
         transform: translateX(0rem);
     }
-    100%{
+
+    100% {
         transform: translateX(0rem);
     }
 }
@@ -117,14 +120,14 @@ h2 {
         left: 0rem;
         top: 30rem;
         width: 10em;
-        height:fit-content;
-        
+        height: auto;
+
     }
 
     .puffer-fish {
         left: 6rem;
         top: 36rem;
         width: 12em;
-        height: fit-content;
+        height: auto;
     }
 }
