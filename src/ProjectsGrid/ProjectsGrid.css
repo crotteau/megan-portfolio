@@ -1,6 +1,7 @@
 .projects-section {
     padding: 2rem 1rem;
-    background-color: rgb(167, 162, 158);
+    /* background-color: rgb(167, 162, 158); */
+    background-color: rgb(215, 213, 207);
 }
 
 .projects-section-header {
@@ -93,12 +94,12 @@
     padding: 0.15em;
     border-radius: 5px;
     border-style: outset;
-    border-color: rgb(167, 148, 133);
+    border-color: rgb(172, 163, 157);
 
     &:hover {
         color: rgb(156, 203, 184);
         border-style: inset;
-        border-color: rgb(167, 148, 133);
+        border-color: rgb(167, 160, 154);
     }
 }
 
@@ -109,7 +110,7 @@ button {
     padding: 1em;
     cursor: pointer;
     border-style: none;
-    background-color: rgb(167, 162, 158);
+    background-color: rgb(215, 213, 207);
 }
 
 
