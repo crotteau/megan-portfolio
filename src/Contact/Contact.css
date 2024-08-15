@@ -3,13 +3,14 @@
     background-color: rgb(215, 213, 207);
     margin-top: 0px;
     padding: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
     display: flex;
 }
 
 .contact-info {
     background-color: rgb(239, 149, 74);
     margin-left: 3em;
+    margin-top: 4rem;
     font-size: 1.5em;
     width: fit-content;
     height: fit-content;
@@ -25,16 +26,16 @@
 .seaweed {
     width: 40rem;
     position: absolute;
-    left: 22rem;
-    top: 84rem;
+    left: 21rem;
+    top: 86rem;
     z-index: 1;
 }
 
 .fish2 {
     position: absolute;
-    width: 30rem;
+    width: 26rem;
     left: 24rem;
-    top: 85rem;
+    top: 90rem;
     z-index: 0;
     animation: bob 5s infinite;
 }
