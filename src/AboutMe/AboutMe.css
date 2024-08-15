@@ -71,15 +71,18 @@ h2 {
     left: 63rem;
     top: 8rem;
     z-index: 0;
-    animation: swim 6s infinite;
+    animation: swim 9s infinite;
 }
 
 @keyframes swim {
     0%{
         transform: translateX(0rem);
     }
-    50%{
+    40%{
         transform: translateX(10rem) rotate(0.05turn);
+    }
+    80%{
+        transform: translateX(0rem);
     }
     100%{
         transform: translateX(0rem);

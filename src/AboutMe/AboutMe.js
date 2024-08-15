@@ -1,7 +1,6 @@
 import './AboutMe.css';
 import bulbs from '../assets/bulbs.png';
 import fish1 from '../assets/fish1.png';
-import fish2 from '../assets/fish2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
