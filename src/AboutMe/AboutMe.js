@@ -8,7 +8,6 @@ import { faFile } from '@fortawesome/free-solid-svg-icons';
 function AboutMe() {
 
     return (
-        // <section className='about-me' style={{ backgroundImage: `url(${blueSquares})` }}>
         <section className='about-me'>
             <article className='about-intro'>
                 <div>

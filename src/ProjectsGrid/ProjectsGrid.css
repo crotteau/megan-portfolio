@@ -1,7 +1,5 @@
 .projects-section {
     padding: 2rem 1rem;
-    /* background-color: rgb(167, 162, 158); */
-    /* background-color: rgb(215, 213, 207); */
 }
 
 .projects-section-header {
@@ -46,7 +44,6 @@
     height: 34em;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    /* box-shadow: 1px 1px 5px rgb(255, 255, 255); */
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
@@ -123,18 +120,18 @@ button {
         padding-left: 0px;
         height: fit-content;
     }
-    
+
     .projects-grid {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .projects-container {
         padding-bottom: 0px;
         width: fit-content;
     }
-    
+
     .project {
         margin-bottom: 0px;
         height: fit-content;

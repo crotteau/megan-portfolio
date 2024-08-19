@@ -39,19 +39,23 @@
 }
 
 @keyframes bob {
-    0%{
+    0% {
         transform: rotate();
     }
-    50%{
+
+    50% {
         transform: rotate(8deg);
     }
-    100%{
+
+    100% {
         transform: rotate();
     }
-} 
+}
 
 @media screen and (max-width: 600px) {
-    .seaweed, .fish2 {
+
+    .seaweed,
+    .fish2 {
         display: none;
     }
 

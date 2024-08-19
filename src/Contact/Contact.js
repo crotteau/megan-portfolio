@@ -12,8 +12,8 @@ function Contact() {
                 Denver, CO <br />
                 megan.crotteau@gmail.com <br />
             </p>
-            <img className='seaweed' src={seaweed} alt='seaweed'/>
-            <img className='fish2' src={fish2} alt='seaweed'/>
+            <img className='seaweed' src={seaweed} alt='seaweed' />
+            <img className='fish2' src={fish2} alt='fish2' />
         </section>
     )
 }

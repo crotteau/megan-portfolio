@@ -4,15 +4,12 @@
     padding-top: 3rem;
     padding-bottom: 5rem;
     color: rgb(37, 37, 66);
-    /* background-color: rgb(215, 213, 207); */
 }
 
 .about-intro {
     padding: 3em;
     padding-bottom: 3em;
-    /* background-color: rgb(121, 173, 197); */
     background-color: rgb(156, 203, 184);
-    /* width: 40vw; */
     height: fit-content;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgb(175, 177, 174);
@@ -21,10 +18,7 @@
 h2 {
     margin: 0px;
     padding-left: 0px;
-    /* font-family: "Bellota Text", sans-serif; */
-    /* font-family: "Staatliches", sans-serif; */
     font-family: "Major Mono Display", monospace;
-    /* font-weight: 700; */
     font-size: 3.5rem;
 }
 

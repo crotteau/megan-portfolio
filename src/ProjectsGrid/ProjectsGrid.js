@@ -1,5 +1,4 @@
 import './ProjectsGrid.css';
-import grid from '../assets/green-squares.png';
 import projects from '../projectsData';
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -70,7 +69,6 @@ function ProjectsGrid() {
    }
 
    return (
-      //  <section className='projects-grid' style={{ backgroundImage: `url(${grid})` }}> 
       <section className='projects-section'>
          <div className='projects-section-header'>
             <h2 className='projects'>Projects</h2>
