@@ -1,6 +1,7 @@
 # Hi, you've found my portfolio!
 Currently a work in progress.. stay tuned for more updates.
 
+Images sourced from [rawpixel](https://www.rawpixel.com/)
 
 ## Contact: <br>
 **Megan Crotteau** <br>
