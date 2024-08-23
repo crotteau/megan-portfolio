@@ -12,7 +12,10 @@
     background-color: rgb(156, 203, 184);
     height: fit-content;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px rgb(175, 177, 174);
+    box-shadow: 2px 2px 5px rgb(37, 35, 35);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(62, 83, 74);
 }
 
 h2 {
