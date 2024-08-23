@@ -1,5 +1,5 @@
 import habitat from './assets/habitat.png';
-import asteroid from './assets/asteroid.png';
+import asteroid from './assets/asteroidsLow.jpg';
 import travel from './assets/traveltracker.png';
 import cocktails from './assets/mixmaster1.png';
 
